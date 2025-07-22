@@ -1,0 +1,10 @@
+The following 3D models are authored by Tomas Strazdas:
+
+- DIN-45326 Audio connector
+
+They can be obtained from https://grabcad.com/library/din-audio-connector-8-pin-1
+
+
+
+
+

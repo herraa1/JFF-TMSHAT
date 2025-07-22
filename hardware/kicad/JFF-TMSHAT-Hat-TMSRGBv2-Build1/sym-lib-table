@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "tms-rgb-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/tms-rgb-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "my_components")(type "KiCad")(uri "${KIPRJMOD}/compo/my_components.kicad_sym")(options "")(descr ""))
+)
