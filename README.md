@@ -111,7 +111,7 @@ This mainboard design allows using a TMS9928A or TMS9929A VDP in combination wit
 
 #### [JFF-TMSHAT-Mainboard Build1](hardware/kicad/JFF-TMSHAT-Mainboard-Build1/)
 
-[<img src="images/jff_mainboard-original-full-view-annotated.png" width="512"/>](images/jff_mainboard-original-full-view-annotated.png)
+[<img src="images/jff_mainboard-modified-full-view-annotated.png" width="512"/>](images/jff_mainboard-modified-full-view-annotated.png)
 
 [Bill Of Materials (BoM)](https://html-preview.github.io/?url=https://raw.githubusercontent.com/herraa1/JFF-TMSHAT/main/hardware/kicad/JFF-TMSHAT-Mainboard-Build1/jff_mainboard-1.1b-TMSHAT/bom/ibom.html)
 
