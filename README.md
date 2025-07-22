@@ -115,6 +115,8 @@ This mainboard design allows using a TMS9928A or TMS9929A VDP in combination wit
 
 [Bill Of Materials (BoM)](https://html-preview.github.io/?url=https://raw.githubusercontent.com/herraa1/JFF-TMSHAT/main/hardware/kicad/JFF-TMSHAT-Mainboard-Build1/jff_mainboard-1.1b-TMSHAT/bom/ibom.html)
 
+[Schematic and PCB](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fherraa1%2FJFF-TMSHAT%2Ftree%2Fmain%2Fhardware%2Fkicad%2FJFF-TMSHAT-Mainboard-Build1%2Fjff_mainboard-1.1b-TMSHAT)
+
 ### JFF-TMSHAT-Hat-TMSRGBv2
 
 This TMSHAT provides RGB output via a DIN8 connector compatible with Panasonic MSX2+ machines when using a TMS9928A or TMS9929A VDP.
@@ -129,6 +131,8 @@ It requires a [TMS-RGB v2 module](https://tms-rgb.com/) by [Nicholas Piegdon](ht
 
 [Bill Of Materials (BoM)](https://html-preview.github.io/?url=https://raw.githubusercontent.com/herraa1/JFF-TMSHAT/main/hardware/kicad/JFF-TMSHAT-Hat-TMSRGBv2-Build1/bom/ibom.html)
 
+[Schematic and PCB](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fherraa1%2FJFF-TMSHAT%2Ftree%2Fmain%2Fhardware%2Fkicad%2FJFF-TMSHAT-Hat-TMSRGBv2-Build1)
+
 ### JFF-TMSHAT-Hat-TMSRGBCustom
 
 This TMSHAT provides RGB output via a DIN8 connector compatible with Panasonic MSX2+ machines when using a TMS9928A or TMS9929A VDP.
@@ -142,6 +146,8 @@ It implements a custom TMS-RGB directly in the TMSHAT.
 [<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-back.jpg" width="512"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-back.jpg)
 
 [Bill Of Materials (BoM)](https://html-preview.github.io/?url=https://raw.githubusercontent.com/herraa1/JFF-TMSHAT/main/hardware/kicad/JFF-TMSHAT-Hat-TMSRGBCustom-Build1/bom/ibom.html)
+
+[Schematic and PCB](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fherraa1%2FJFF-TMSHAT%2Ftree%2Fmain%2Fhardware%2Fkicad%2FJFF-TMSHAT-Hat-TMSRGBCustom-Build1)
 
 ## References
 
