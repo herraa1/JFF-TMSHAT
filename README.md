@@ -91,7 +91,7 @@ The JFF computer mainboard is modified as described here.
 
 * External companion TMSHAT cards are designed and connected to the new audio/video header to achieve a specific audio/video output.
 
-  As an example, a pair of TMSHAT card implementations are provided to convert the luminance and color difference signals to RGB, and output both the audio and RGB video signals through a DIN8 connector compatible with audio/video cables for Panasonic MSX2+ machines.
+  As an example, a pair of TMSHAT card implementations are provided to convert the luminance and color difference signals to RGB, and output both the audio and RGB video signals through a DIN8 connector compatible with [audio/video cables for Panasonic MSX2+ machines](https://www.msx.org/wiki/RGB_(8-pin_DIN_45326)#Mitsubishi_.28Japan.29.2C_National.2FPanasonic_.28except_the_FS-A1WSX.29.2C_Sakhr.2C_Sony_and_Yamaha_computers_.2B_Sanyo_MSX2.2F2.2B_computers).
 
   [<img src="images/jff_mainboard-modified-with-TMSHAT-example.png" width="512"/>](images/jff_mainboard-modified-with-TMSHAT-example.png)
 
@@ -119,7 +119,7 @@ This mainboard design allows using a TMS9928A or TMS9929A VDP in combination wit
 
 ### JFF-TMSHAT-Hat-TMSRGBv2
 
-This TMSHAT provides RGB output via a DIN8 connector compatible with Panasonic MSX2+ machines when using a TMS9928A or TMS9929A VDP.
+This TMSHAT provides RGB output via a DIN8 connector compatible with audio/video cables for Panasonic MSX2+ machines when using a TMS9928A or TMS9929A VDP.
 
 It requires a [TMS-RGB v2 module](https://tms-rgb.com/) by [Nicholas Piegdon](https://twitter.com/npiegdon).
 
@@ -135,7 +135,7 @@ It requires a [TMS-RGB v2 module](https://tms-rgb.com/) by [Nicholas Piegdon](ht
 
 ### JFF-TMSHAT-Hat-TMSRGBCustom
 
-This TMSHAT provides RGB output via a DIN8 connector compatible with Panasonic MSX2+ machines when using a TMS9928A or TMS9929A VDP.
+This TMSHAT provides RGB output via a DIN8 connector compatible with audio/video cables for Panasonic MSX2+ machines when using a TMS9928A or TMS9929A VDP.
 
 It implements a custom TMS-RGB directly in the TMSHAT.
 
