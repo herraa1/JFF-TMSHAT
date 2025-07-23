@@ -38,7 +38,7 @@ Using the luminance and color difference signals provided by the TMS9928A or TMS
 
 The JFF computer mainboard is modified as described here.
 
-* An new audio/video header J13 is added to the JFF computer mainboard, which can be used to select between the TMS9918A or TMS9928A/TMS9929A VDPs, and to provide the required audio and video signals to an external companion card called TMSHAT which converts them into a specific audio/video output.
+* A new audio/video header J13 is added to the JFF computer mainboard, which can be used to select between the TMS9918A or TMS9928A/TMS9929A VDPs, and to provide the required audio and video signals to an external companion card called TMSHAT which converts them into a specific audio/video output.
 
   [<img src="images/jff_mainboard-modified-new-header-annotated.png" width="512"/>](images/jff_mainboard-modified-new-header-annotated.png)
 
@@ -57,7 +57,7 @@ The JFF computer mainboard is modified as described here.
 
   - *TMS9918A*
 
-    To use a TMS9918A VDP, pins 5 (COMVID/Y) and 6 (COMVID_OUT) of J13 must be bridged and a TMS9918A must be installed in U6.
+    To use a TMS9918A VDP, pins 5 (COMVID/Y) and 6 (COMVID_OUT) of J13, which use inverted colors in the silkscreen text, must be bridged and a TMS9918A must be installed in U6.
     In this configuration the modified JFF computer works identically as the original JFF computer with a TMS9918A and outputs a composite video signal on the motherboard video RCA connector.
 
   - *TMS9928A/TMS9929A*
@@ -89,9 +89,9 @@ The JFF computer mainboard is modified as described here.
 
   The top-left 3mm hole and the new 3mm hole on the JFF computer mainboard are the mechanical attachment points for the TMSHAT cards, while the audio/video header attachment provides the electrical signals.
 
-* External companion TMSHAT cards are designed and connected to the new audio/video header to achieve a specific audio/video output.
+* External companion TMSHAT cards are designed to be connected to the new audio/video header J13, attached to the previously described mainboard holes and shaped to avoid any collision with existing components in the JFF computer. The TMSHAT cards provide a specific audio/video output using one or more embedded connectors in the card itself.
 
-  As an example, a pair of TMSHAT card implementations are provided to convert the luminance and color difference signals to RGB, and output both the audio and RGB video signals through a DIN8 connector compatible with [audio/video cables for Panasonic MSX2+ machines](https://www.msx.org/wiki/RGB_(8-pin_DIN_45326)#Mitsubishi_.28Japan.29.2C_National.2FPanasonic_.28except_the_FS-A1WSX.29.2C_Sakhr.2C_Sony_and_Yamaha_computers_.2B_Sanyo_MSX2.2F2.2B_computers).
+  As an example, a pair of TMSHAT card implementations are provided to convert the luminance and color difference signals of the TMS9928A and TMS9929A VDPs to RGB, and output both the audio and RGB video signals through a DIN8 connector compatible with [audio/video cables for Panasonic MSX2+ machines](https://www.msx.org/wiki/RGB_(8-pin_DIN_45326)#Mitsubishi_.28Japan.29.2C_National.2FPanasonic_.28except_the_FS-A1WSX.29.2C_Sakhr.2C_Sony_and_Yamaha_computers_.2B_Sanyo_MSX2.2F2.2B_computers).
 
   [<img src="images/jff_mainboard-modified-with-TMSHAT-example.png" width="512"/>](images/jff_mainboard-modified-with-TMSHAT-example.png)
 
@@ -148,6 +148,18 @@ It implements a custom TMS-RGB directly in the TMSHAT.
 [Bill Of Materials (BoM)](https://html-preview.github.io/?url=https://raw.githubusercontent.com/herraa1/JFF-TMSHAT/main/hardware/kicad/JFF-TMSHAT-Hat-TMSRGBCustom-Build1/bom/ibom.html)
 
 [Schematic and PCB](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fherraa1%2FJFF-TMSHAT%2Ftree%2Fmain%2Fhardware%2Fkicad%2FJFF-TMSHAT-Hat-TMSRGBCustom-Build1)
+
+## Design considerations
+
+* The external connectors in the mainboard of the original JFF computer must not be relocated
+* Modifications to the original JFF computer must be kept to the minimum necessary to achieve the functional goals
+* The modified JFF-TMSHAT computer must behave exactly as the original JFF computer when configured in TMS9918A mode
+* A TMSHAT card must not collide with components of the JFF computer nor with the DD1718PA voltage converter module
+
+## Random notes (for internal reference only)
+
+* The female header of the TMSHAT card must use long enough pins to account for the height of the connector used in the TMSHAT
+* A minimum of 20mm of separation is required between the mainboard PCB and the TMSHAT PCB in order to use an inverted DIN8 connector in the TMSHAT card
 
 ## References
 
