@@ -3904,7 +3904,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 1618966320)
 			(uuid "468f0e4c-12f5-4dcd-9ee4-8a9a06382c97")
 		)
 		(fp_poly
@@ -3924,7 +3923,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 1618966320)
 			(uuid "7004e117-ab97-4037-911d-3f64a03f8ccb")
 		)
 		(fp_poly
@@ -3948,7 +3946,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 1618966320)
 			(uuid "799a3c0c-e711-4e0e-8afa-7e938043385a")
 		)
 		(fp_poly
@@ -3985,7 +3982,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 1618966320)
 			(uuid "39f2ddbc-e74f-432d-b94c-dc774adb414d")
 		)
 		(fp_poly
@@ -4020,7 +4016,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 1618966320)
 			(uuid "1de5d92c-7080-4772-a62b-c296cf3f349d")
 		)
 		(fp_poly
@@ -4057,7 +4052,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 1618966320)
 			(uuid "56f7a97a-770a-489a-bbe2-ddec13c96f22")
 		)
 		(embedded_fonts no)
@@ -4992,7 +4986,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 1618966320)
 			(uuid "53fc840d-80e8-4f63-b5c8-9c58b5e931f3")
 		)
 		(fp_poly
@@ -5015,7 +5008,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 1618966320)
 			(uuid "ed45ce20-cec5-45fd-bc35-b1101e55e8f2")
 		)
 		(fp_poly
@@ -5042,7 +5034,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 1618966320)
 			(uuid "c7d02c2e-2c08-4964-88e1-d50106cbad8e")
 		)
 		(fp_poly
@@ -5077,7 +5068,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 1618966320)
 			(uuid "bcf220e4-b1c5-438b-bffa-6d9585f5d4db")
 		)
 		(fp_poly
@@ -5115,7 +5105,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 1618966320)
 			(uuid "ebdd059a-ae92-454b-b3cb-8e8b923603e8")
 		)
 		(fp_poly
@@ -5152,7 +5141,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 1618966320)
 			(uuid "003ecd3e-2bdc-448f-8186-6033be935004")
 		)
 		(embedded_fonts no)
@@ -12078,6 +12066,17 @@
 		(at 114.4 71.7 0)
 		(layer "F.SilkS")
 		(uuid "978cbb77-6030-49ae-b43a-fc0f2c10f745")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "YS"
+		(at 101.8 74.2 0)
+		(layer "F.SilkS")
+		(uuid "9c8bcae2-8ac6-415e-ac46-943123957262")
 		(effects
 			(font
 				(size 1 0.8)

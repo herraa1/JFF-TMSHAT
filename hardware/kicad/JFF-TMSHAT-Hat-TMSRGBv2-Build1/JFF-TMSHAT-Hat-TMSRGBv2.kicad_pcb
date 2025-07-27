@@ -5783,6 +5783,17 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "YS"
+		(at 101.8 74.2 0)
+		(layer "F.SilkS")
+		(uuid "21af6e71-da27-4f46-89fb-d3c5e85e084c")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
 	(gr_text "G"
 		(at 98.8 81.9 0)
 		(layer "F.SilkS")
