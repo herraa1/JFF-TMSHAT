@@ -1,9 +1,14 @@
 # JFF Computer with TMSHAT
 
 > [!WARNING]
-> This project is totally UNTESTED and as of today it has never been built!
-> Do NOT build, unless you don't mind having some extra FR-4 paperweights.
+> The modified JFF mainboard has been successfully built (as of Aug 20th, 2025), but the TMSHATs remain yet totally UNTESTED!
+> Do NOT build the TMSHATs yet, unless you don't mind having some extra FR-4 paperweights.
 >
+> Also, while building the JFF mainboard it has been detected that the original JFF has a bug in the general purpose IO ports schematic similar (but different) to [the bug that affected the Omega Home Computer prior to version 1.5](https://github.com/skiselev/omega/issues/56)
+>
+> A fix will be committed to solve that problem on a future build of the modified JFF mainboard.
+>
+> For existing mainboards, an extra socket adaptor for U20 can be developed to fix the problem.
 
 This is an enhanced version of the [JFF Computer](https://github.com/konkotgit/JFF) by @Skoti, which enables the use of the TMS9928A or TMS9929A Video Display Processors (VDPs), in addition to the TMS9918A VDP.
 
