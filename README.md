@@ -131,28 +131,28 @@ This mainboard design allows using a TMS9928A or TMS9929A VDP in combination wit
 
 [Schematic and PCB](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fherraa1%2FJFF-TMSHAT%2Ftree%2Fmain%2Fhardware%2Fkicad%2FJFF-TMSHAT-Mainboard-Build1%2Fjff_mainboard-1.1b-TMSHAT)
 
-[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-PCB-Unpopulated-Top-IMG_8311.png" width="256"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-PCB-Unpopulated-Top-IMG_8311.png)
-[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-PCB-Unpopulated-Bottom-IMG_8312.png" width="256"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-PCB-Unpopulated-Bottom-IMG_8312.png)
+[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-PCB-Unpopulated-Top-IMG_8311-512px.png" width="256"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-PCB-Unpopulated-Top-IMG_8311.png)
+[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-PCB-Unpopulated-Bottom-IMG_8312-512px.png" width="256"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-PCB-Unpopulated-Bottom-IMG_8312.png)
 
-[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-Top-IMG_8303.png" width="512"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-Top-IMG_8303.png)
+[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-Top-IMG_8303-512px.png" width="512"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-Top-IMG_8303.png)
 
 ##### Configurations
 
 ###### TMS9918
 
-[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9918ANL-Configuration-Landscape-IMG_8321.png" width="512"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9918ANL-Configuration-Landscape-IMG_8321.png)
+[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9918ANL-Configuration-Landscape-IMG_8321-512px.png" width="512"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9918ANL-Configuration-Landscape-IMG_8321.png)
 
 ###### TMS9929
 
-[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9929ANL-Configuration-Without-HAT-Landscape-IMG_8319.png" width="512"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9929ANL-Configuration-Without-HAT-Landscape-IMG_8319.png)
+[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9929ANL-Configuration-Without-HAT-Landscape-IMG_8319-512px.png" width="512"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9929ANL-Configuration-Without-HAT-Landscape-IMG_8319.png)
 
-[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9929ANL-Configuration-With-TMSRGBCustom-Landscape-IMG_8306.png" width="512"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9929ANL-Configuration-With-TMSRGBCustom-Landscape-IMG_8306.png)
+[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9929ANL-Configuration-With-TMSRGBCustom-Landscape-IMG_8306-512px.png" width="512"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9929ANL-Configuration-With-TMSRGBCustom-Landscape-IMG_8306.png)
 
-[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Rear-IMG_8308.png" width="256"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Rear-IMG_8308.png)
-[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Left-IMG_8307.png" width="256"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Left-IMG_8307.png)
+[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Rear-IMG_8308-512px.png" width="256"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Rear-IMG_8308.png)
+[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Left-IMG_8307-512px.png" width="256"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Left-IMG_8307.png)
 
-[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Front-IMG_8310.png" width="256"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Front-IMG_8310.png)
-[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Right-IMG_8309.png" width="256"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Right-IMG_8309.png)
+[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Front-IMG_8310-512px.png" width="256"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Front-IMG_8310.png)
+[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Right-IMG_8309-512px.png" width="256"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Right-IMG_8309.png)
 
 
 ### JFF-TMSHAT-Hat-TMSRGBv2
@@ -171,8 +171,8 @@ It requires a [TMS-RGB v2 module](https://tms-rgb.com/) by [Nicholas Piegdon](ht
 
 [Schematic and PCB](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fherraa1%2FJFF-TMSHAT%2Ftree%2Fmain%2Fhardware%2Fkicad%2FJFF-TMSHAT-Hat-TMSRGBv2-Build1)
 
-[<img src="images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-PCB-Unpopulated-Top-IMG_8313.png" width="256"/>](images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-PCB-Unpopulated-Top-IMG_8313.png)
-[<img src="images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-PCB-Unpopulated-Bottom-IMG_8314.png" width="256"/>](images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-PCB-Unpopulated-Bottom-IMG_8314.png)
+[<img src="images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-PCB-Unpopulated-Top-IMG_8313-512px.png" width="256"/>](images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-PCB-Unpopulated-Top-IMG_8313.png)
+[<img src="images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-PCB-Unpopulated-Bottom-IMG_8314-512px.png" width="256"/>](images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-PCB-Unpopulated-Bottom-IMG_8314.png)
 
 ### JFF-TMSHAT-Hat-TMSRGBCustom
 
@@ -190,15 +190,15 @@ It implements a custom TMS-RGB directly in the TMSHAT.
 
 [Schematic and PCB](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fherraa1%2FJFF-TMSHAT%2Ftree%2Fmain%2Fhardware%2Fkicad%2FJFF-TMSHAT-Hat-TMSRGBCustom-Build1)
 
-[<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-PCB-Unpopulated-Top-IMG_8313.png" width="256"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-PCB-Unpopulated-Top-IMG_8313.png)
-[<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-PCB-Unpopulated-Bottom-IMG_8314.png" width="256"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-PCB-Unpopulated-Bottom-IMG_8314.png)
+[<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-PCB-Unpopulated-Top-IMG_8313-512px.png" width="256"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-PCB-Unpopulated-Top-IMG_8313.png)
+[<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-PCB-Unpopulated-Bottom-IMG_8314-512px.png" width="256"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-PCB-Unpopulated-Bottom-IMG_8314.png)
 
-[<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Top-IMG_8315.png" width="512"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Top-IMG_8315.png)
+[<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Top-IMG_8315-512px.png" width="512"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Top-IMG_8315.png)
 
-[<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-IMG_8316.png" width="512"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-IMG_8316.png)
+[<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-IMG_8316-512px.png" width="512"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-IMG_8316.png)
 
-[<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-Detail-IMG_8317.png" width="256"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-Detail-IMG_8317.png)
-[<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-Detail-IMG_8318.png" width="256"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-Detail-IMG_8318.png)
+[<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-Detail-IMG_8317-512px.png" width="256"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-Detail-IMG_8317.png)
+[<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-Detail-IMG_8318-512px.png" width="256"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-Detail-IMG_8318.png)
 
 
 ## Design considerations
