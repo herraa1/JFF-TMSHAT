@@ -1,16 +1,25 @@
 # JFF Computer with TMSHAT
 
-> [!WARNING]
-> The modified JFF mainboard has been successfully built (as of Aug 20th, 2025), but the TMSHATs remain yet totally UNTESTED!
-> Do NOT build the TMSHATs yet, unless you don't mind having some extra FR-4 paperweights.
->
-> Also, while building the JFF mainboard it has been detected that the original JFF has a bug in the general purpose IO ports schematic similar (but different) to [the bug that affected the Omega Home Computer prior to version 1.5](https://github.com/skiselev/omega/issues/56)
->
-> A fix will be committed to solve that problem on a future build of the modified JFF mainboard.
->
-> For existing mainboards, an extra socket adaptor for U20 can be developed to fix the problem.
-
 This is an enhanced version of the [JFF Computer](https://github.com/konkotgit/JFF) by @Skoti, which enables the use of the TMS9928A or TMS9929A Video Display Processors (VDPs), in addition to the TMS9918A VDP.
+
+## Current Status
+
+The modified JFF mainboard 1.1b Build1 has been successfully designed, built and tested (as of Aug 20th, 2025). See *warning* on the next paragraph.
+
+The TMSRGBCustom TMSHAT Build1 has been successfully designed, built and tested (as of Sep 11th, 2025). It has been successfully tested for RGB output on the modified JFF mainboard 1.1b Build1 with a TMS9929A NL installed (50Hz).
+
+The manufacturing of the *Build1* PCB prototypes have been kindly sponsored by [PCBWay](https://www.pcbway.com).
+
+The TMSRGBv2 TMSHAT is still untested, but it is expected to work.
+
+> [!WARNING]
+>
+> While building the JFF mainboard it has been detected that the original JFF mainboard revision 1.1 has a bug in the general purpose IO ports schematic similar (but different) to [the bug that affected the Omega Home Computer prior to version 1.5](https://github.com/skiselev/omega/issues/56) which the modified JFF mainboard revision 1.1b Build1 has *inherited*. The bug does not affect joysticks, only IO devices which require output to the trigger pins are affected.
+>
+> A fix will be committed to solve that problem on a future build of the modified JFF mainboard, once the fix has been validated using a MSX mouse.
+>
+> For existing original JFF revision 1.1 mainboards (and for the modified JFF mainboard revision 1.1b Build1), a socket adaptor for U20 called the *JFF-joyfix-board* has been developed to fix the problem, and will be published too once validated.
+>
 
 ## Motivation
 
