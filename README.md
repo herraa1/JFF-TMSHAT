@@ -154,6 +154,8 @@ This mainboard design allows using a TMS9928A or TMS9929A VDP in combination wit
 [<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Front-IMG_8310-512px.png" width="256"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Front-IMG_8310.png)
 [<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Right-IMG_8309-512px.png" width="256"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-with-JFF-TMSHAT-Hat-TMSRGBCustom-Build1-and-TMS9929ANL-HATCloseUp-Right-IMG_8309.png)
 
+[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9929ANL-Configuration-With-TMSRGBCustom-Test-50Hz-IMG_8329-512px.png" width="512"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9929ANL-Configuration-With-TMSRGBCustom-Test-50Hz-IMG_8329.png)
+
 
 ### JFF-TMSHAT-Hat-TMSRGBv2
 
