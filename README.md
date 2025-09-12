@@ -135,7 +135,7 @@ This mainboard design allows using a TMS9928A or TMS9929A VDP in combination wit
 
 #### [JFF-TMSHAT-Mainboard Build1](hardware/kicad/JFF-TMSHAT-Mainboard-Build1/)
 
-This board has been successfully built and tested.
+:white_check_mark: This board has been successfully built and tested.
 
 [<img src="images/jff_mainboard-modified-full-view-annotated.png" width="512"/>](images/jff_mainboard-modified-full-view-annotated.png)
 
@@ -196,7 +196,7 @@ It requires a [TMS-RGB v2 module](https://tms-rgb.com/) by [Nicholas Piegdon](ht
 
 > [!WARNING]
 >
-> This board is totally UNTESTED. Build at your own risk.
+> This board is totally UNTESTED. :heavy_exclamation_mark: Build at your own risk.
 
 [<img src="images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-front.jpg" width="512"/>](images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-front.jpg)
 
@@ -219,7 +219,7 @@ It implements a custom TMS-RGB directly in the TMSHAT.
 
 #### [JFF-TMSHAT-Hat-TMSRGBCustom-Build1](hardware/kicad/JFF-TMSHAT-Hat-TMSRGBCustom-Build1/)
 
-This board has been successfully built and tested.
+:white_check_mark: This board has been successfully built and tested.
 
 [<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-front.jpg" width="512"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-front.jpg)
 
