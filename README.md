@@ -4,13 +4,13 @@ This is an enhanced version of the [JFF Computer](https://github.com/konkotgit/J
 
 ## Current Status
 
-The modified JFF mainboard 1.1b Build1 has been successfully designed, built and tested (as of Aug 20th, 2025). See *warning* on the next paragraph.
+The modified JFF mainboard 1.1b-TMSHAT Build1 has been successfully designed, built and tested (as of Aug 20th, 2025). See *warning* on the next paragraph.
 
-The TMSRGBCustom TMSHAT Build1 has been successfully designed, built and tested (as of Sep 11th, 2025). It has been successfully tested for RGB output on the modified JFF mainboard 1.1b Build1 with a TMS9929A NL installed (50Hz).
+The TMSRGBCustom TMSHAT Build1 has been successfully designed, built and tested (as of Sep 11th, 2025). It has been successfully tested for RGB output on the modified JFF mainboard 1.1b-TMSHAT Build1 with a TMS9929A NL installed (50Hz).
 
 The manufacturing of the *Build1* PCB prototypes have been kindly sponsored by [PCBWay](https://www.pcbway.com).
 
-The TMSRGBv2 TMSHAT is still untested, but it is expected to work.
+The TMSRGBv2 TMSHAT Build1 is still untested, but it is expected to work.
 
 > [!WARNING]
 >
@@ -56,14 +56,18 @@ The JFF computer mainboard is modified as described here.
 
   [<img src="images/jff_mainboard-modified-new-header-annotated.png" width="512"/>](images/jff_mainboard-modified-new-header-annotated.png)
 
-  The header consists of at least the following signals:
-  * GND
-  * +5V
-  * CPUCLK/R-Y
-  * EXTVDP/B-Y
-  * COMVID/Y
-  * COMVID_OUT
-  * AUDIO
+  The header provides access to the following signals:
+
+  | **Pin Number** | **Name**   | **Type<br>(from JFF connector point of view)** | **Function**                                              |
+  | -------------- | ---------- | ---------------------------------------------- | --------------------------------------------------------- |
+  | 1              | GND        | Power                                          | Common ground                                             |
+  | 2              | +5V        | Power                                          | 5V power rail                                             |
+  | 3              | CPUCLK/R-Y | OUT                                            | direct signal from pin 38 of VDP                          |
+  | 4              | EXTVDP/B-Y | OUT                                            | direct signal from pin 35 of VDP                          |
+  | 5              | COMVID/Y   | OUT                                            | direct signal from pin 36 of VDP                          |
+  | 6              | COMVID_OUT | IN                                             | connected to JFF mainboard composite video output circuit |
+  | 7              | NC         |                                                | (reserved)                                                |
+  | 8              | AUDIO      | OUT                                            | final mixed audio signal                                  |
 
   A total of 8 pins are used for the audio/video header, giving 1 extra pin for future use.
 
