@@ -1,5 +1,7 @@
 # JFF Computer with TMSHAT
 
+[<img src="images/JFF-TMSHAT-Logo.png" width="512"/>](images/JFF-TMSHAT-Logo.png)
+
 This is an enhanced version of the [JFF Computer](https://github.com/konkotgit/JFF) by @Skoti, which enables the use of the TMS9928A or TMS9929A Video Display Processors (VDPs), in addition to the TMS9918A VDP.
 
 ## Current Status
