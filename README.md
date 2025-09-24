@@ -8,7 +8,7 @@ This is an enhanced version of the [JFF Computer](https://github.com/konkotgit/J
 
 The modified JFF mainboard 1.1b-TMSHAT Build1 has been successfully designed, built and tested (as of Aug 20th, 2025). See *warning* on the next paragraph.
 
-The TMSRGBCustom TMSHAT Build1 has been successfully designed, built and tested (as of Sep 11th, 2025). It has been successfully tested for RGB output on the modified JFF mainboard 1.1b-TMSHAT Build1 with a TMS9929A NL installed (50Hz).
+The TMSRGBCustom TMSHAT Build1 has been successfully designed, built and tested (as of Sep 11th, 2025). It has been successfully tested for RGB output on the modified JFF mainboard 1.1b-TMSHAT Build1 with both a TMS9929A NL (50Hz) and a TMS9928AN (60Hz).
 
 The TMSRGBv2 TMSHAT Build1 is still untested, but it is expected to work.
 
@@ -157,7 +157,7 @@ This mainboard design allows using a TMS9928A or TMS9929A VDP in combination wit
 
 This section provides visual details on how to configure the JFF mainboard 1.1b-TMSHAT for different VDPs.
 
-###### Using a TMS9918 VDP
+###### Using a TMS9918A VDP
 
 * Insert a TMS9918ANL into U6
 * Use a jumper to bridge pins 5 and 6 of J13
@@ -165,9 +165,9 @@ This section provides visual details on how to configure the JFF mainboard 1.1b-
 
   [<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9918ANL-Configuration-Landscape-IMG_8321-512px.png" width="512"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9918ANL-Configuration-Landscape-IMG_8321.png)
 
-###### Using a TMS9928/TMS9929 VDP with the TMSRGB TMSHATs
+###### Using a TMS9928A/TMS9929A VDP with the TMSRGB TMSHATs
 
-* Insert a TMS9928ANL/TMS9929ANL into U6
+* Insert a TMS9928AN/TMS9929ANL into U6
 * Remove all jumpers from J13, if any
 * Install two 20mm long vertical aluminum round posts on the JFF mainboard holes dedicated for TMSHATs
 
@@ -185,8 +185,10 @@ This section provides visual details on how to configure the JFF mainboard 1.1b-
 
 * Connect a 15KHz RGBS display (or a 15KHz video converter suitable for your modern display, like the [OSSC](https://junkerhq.net/xrgb/index.php/OSSC)) to the [Panasonic-compatible DIN8 video connector](https://www.msx.org/wiki/RGB_(8-pin_DIN_45326)#Mitsubishi_.28Japan.29.2C_National.2FPanasonic_.28except_the_FS-A1WSX.29.2C_Sakhr.2C_Sony_and_Yamaha_computers_.2B_Sanyo_MSX2.2F2.2B_computers) of the TMSHAT
 
-  [<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9929ANL-Configuration-With-TMSRGBCustom-Test-50Hz-IMG_8329-512px.png" width="512"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9929ANL-Configuration-With-TMSRGBCustom-Test-50Hz-IMG_8329.png)
 
+  |[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9929ANL-Configuration-With-TMSRGBCustom-Test-50Hz-IMG_8329-512px.png" width="512"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9929ANL-Configuration-With-TMSRGBCustom-Test-50Hz-IMG_8329.png)|[<img src="images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9928AN-Configuration-With-TMSRGBCustom-Test-60Hz-IMG_8375-512px.png" width="512"/>](images/JFF-TMSHAT-Mainboard-1.1b-TMSHAT-Build1-and-TMS9928AN-Configuration-With-TMSRGBCustom-Test-60Hz-IMG_8375.png)|
+  |-|-|
+  |TMS9929A (50Hz) with a TMSRGBCustom TMSHAT|TMS9928A (60Hz) with a TMSRGBCustom TMSHAT|
 
 ### JFF-TMSHAT-Hat-TMSRGBv2
 
@@ -246,6 +248,14 @@ It implements a custom TMS-RGB directly in the TMSHAT.
 [<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-Detail-IMG_8317-512px.png" width="256"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-Detail-IMG_8317.png)|[<img src="images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-Detail-IMG_8318-512px.png" width="256"/>](images/JFF-TMSHAT-Hat-TMSRGBCustom-Build1-Bottom-Detail-IMG_8318.png)
 |-|-|
 |TMSRGBCustom TMSHAT Build1<br>PCB populated bottom (II)|TMSRGBCustom TMSHAT Build1<br>PCB populated bottom (III)|
+
+## Compatibility tests
+
+| **Motherboard**          | **VDP**     | **TMSHAT**          | **Video Output** | **Result** |
+| ------------------------ | ----------- | ------------------- | ---------------- | ---------- |
+| rev 1.1b-TMSHAT Build1   | TMS9918ANL  | None (bridge 5&6)   | Composite 60Hz   | OK         |
+| rev 1.1b-TMSHAT Build1   | TMS9928AN   | TMSRGBCustom Build1 | RGBS 60Hz        | OK         |
+| rev 1.1b-TMSHAT Build1   | TMS9929ANL  | TMSRGBCustom Build1 | RGBS 50Hz        | OK         |
 
 
 ## Design considerations
