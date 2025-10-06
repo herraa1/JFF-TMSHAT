@@ -131,7 +131,7 @@ The JFF computer mainboard is modified as described here.
 
 This project provides source files for the following hardware designs:
 
-* JFF mainboard rev 1.1b-TMSHAT aka [JFF-TMSHAT-Mainboard](#jff-tmshat-mainboard)
+* JFF mainboard revisions 1.1b-TMSHAT and 1.1c-TMSHAT aka [JFF-TMSHAT-Mainboard](#jff-tmshat-mainboard)
 
 * TMSHAT for RGB output using a standard TMS-RGBv2 module, aka [JFF-TMSHAT-Hat-TMSRGBv2](#jff-tmshat-hat-tmsrgbv2)
 
