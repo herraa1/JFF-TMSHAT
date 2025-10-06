@@ -14,12 +14,18 @@ The TMSRGBv2 TMSHAT Build1 is still untested, but it is expected to work.
 
 > [!WARNING]
 >
-> While building the JFF mainboard it has been detected that the original JFF mainboard revision 1.1b has a bug in the general purpose IO ports schematic similar (but different) to [the bug that affected the Omega Home Computer prior to version 1.5](https://github.com/skiselev/omega/issues/56) which the modified JFF mainboard revision 1.1b-TMSHAT Build1 has *inherited*. The bug does not affect joysticks, only IO devices which require output to the trigger pins are affected.
+> While building the JFF mainboard it has been detected that the original JFF mainboard revision 1.1b has a bug in the general purpose IO ports schematic similar (but different) to [the bug that affected the Omega Home Computer prior to version 1.5](https://github.com/skiselev/omega/issues/56) which the modified JFF mainboard revision 1.1b-TMSHAT Build1 has *inherited*. The bug does not affect MSX joysticks, only IO devices which require output to the trigger pins are affected.
 >
-> For existing original JFF revision 1.1b mainboards (and for the modified JFF mainboard revision 1.1b-TMSHAT Build1), the [JFF joyfix board](https://github.com/herraa1/JFF-1.1-joyfix-board-v1) interposer board has been developed to fix the problem, and has been already validated (as of Oct 3rd, 2025).
+> For existing original JFF revision 1.1b mainboards (and for the modified JFF mainboard revision 1.1b-TMSHAT Build1), the [JFF joyfix board](https://github.com/herraa1/JFF-1.1-joyfix-board-v1) interposer board has been developed to fix the joystick circuit problem, and has been already validated (as of Oct 3rd, 2025).
 >
-> A fix will be committed to solve that problem on a future build of the modified JFF mainboard, now that the fix has been validated using [MSX JIO](https://github.com/louthrax/MSXJIO).
+> A [new revision 1.1c](https://github.com/konkotgit/JFF?tab=readme-ov-file#revisions) of the original JFF mainboard that fixes the joystick circuit bug has been published by @Skoti (as of Oct 6th, 2025) solving [Issue #3](https://github.com/konkotgit/JFF/issues/3).
 >
+> And the equivalent [JFF-TMSHAT Mainboard revision 1.1c-TMSHAT](https://github.com/herraa1/JFF-TMSHAT/tree/main/hardware/kicad/JFF-TMSHAT-Mainboard-Build1/jff_mainboard-1.1c-TMSHAT) has been released by @herraa1 (as of Oct 6th, 2025), but has not been built nor tested.
+>
+
+> [!NOTE]
+>
+> Everything stated here about revision 1.1b-TMSHAT is applicable to 1.1c-TMSHAT. The only difference between the two board revisions is the fix for the joystick circuit bug.
 
 ## Sponsorship
 
