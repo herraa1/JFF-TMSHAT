@@ -31,7 +31,7 @@ The TMSRGBv2 TMSHAT Build1 is still untested, but it is expected to work.
 
 [<img src="images/pcbway-logo-small.jpg" width="128"/>](https://www.pcbway.com).
 
-The fabrication of the *Build1* PCB prototypes has been kindly sponsored by [PCBWay](https://www.pcbway.com), a global quality-focused PCB manufacturer which provides [sponsorship](https://www.kicad.org/sponsors/sponsors/) for the [KiCad project](https://www.kicad.org) as well as many educational and [open source hardware](https://en.wikipedia.org/wiki/Open-source_hardware) projects.
+The fabrication of the *Build1* mainboard 1.1b-TMSHAT, Hat-TMSRGBv2 and Hat-TMSRGBCustom PCB prototypes has been kindly sponsored by [PCBWay](https://www.pcbway.com), a global quality-focused PCB manufacturer which provides [sponsorship](https://www.kicad.org/sponsors/sponsors/) for the [KiCad project](https://www.kicad.org) as well as many educational and [open source hardware](https://en.wikipedia.org/wiki/Open-source_hardware) projects.
 
 KiCad is the open source [EDA](https://en.wikipedia.org/wiki/Electronic_design_automation) platform of choice used to design the hardware circuitry provided in the JFF-TMSHAT project.
 
@@ -143,7 +143,7 @@ This mainboard design allows using a TMS9928A or TMS9929A VDP in combination wit
 
 #### [JFF-TMSHAT-Mainboard Build1](hardware/kicad/JFF-TMSHAT-Mainboard-Build1/)
 
-:white_check_mark: This board has been successfully built and tested.
+:white_check_mark: Revision 1.1b-TMSHAT of this board has been successfully built and tested.
 
 [<img src="images/jff_mainboard-modified-full-view-annotated.png" width="512"/>](images/jff_mainboard-modified-full-view-annotated.png)
 
