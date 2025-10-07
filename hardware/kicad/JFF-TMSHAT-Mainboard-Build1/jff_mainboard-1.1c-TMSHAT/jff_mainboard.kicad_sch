@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "JFF")
-		(date "2025-07-16")
-		(rev "1.1b-TMSHAT")
+		(date "2025-10-06")
+		(rev "1.1c-TMSHAT")
 		(company "Skoti / herraa1")
 		(comment 1 "Just for Fun - Computer")
 	)
