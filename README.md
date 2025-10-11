@@ -10,7 +10,7 @@ The modified JFF mainboard 1.1b-TMSHAT Build1 has been successfully designed, bu
 
 The TMSRGBCustom TMSHAT Build1 has been successfully designed, built and tested (as of Sep 11th, 2025). It has been successfully tested for RGB output on the modified JFF mainboard 1.1b-TMSHAT Build1 with both a TMS9929A NL (50Hz) and a TMS9928AN (60Hz).
 
-The TMSRGBv2 TMSHAT Build1 is still untested, but it is expected to work.
+The TMSRGBv2 TMSHAT Build1 has been successfully designed, built and tested (as of Oct 11th, 2025). It has been successfully tested for RGB output on the modified JFF mainboard 1.1b-TMSHAT Build1 with a TMS9928AN (60Hz) for now, but the TMS9929A NL (50Hz) is expected to work too as with the TMSRGBCustom.
 
 > [!WARNING]
 >
@@ -204,9 +204,7 @@ It requires a [TMS-RGB v2 module](https://tms-rgb.com/) by [Nicholas Piegdon](ht
 
 #### [JFF-TMSHAT-Hat-TMSRGBv2 Build1](hardware/kicad/JFF-TMSHAT-Hat-TMSRGBv2-Build1/)
 
-> [!WARNING]
->
-> This board is totally UNTESTED. :heavy_exclamation_mark: Build at your own risk.
+:white_check_mark: This board has been successfully built and tested.
 
 [<img src="images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-front.jpg" width="512"/>](images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-front.jpg)
 
@@ -220,6 +218,13 @@ It requires a [TMS-RGB v2 module](https://tms-rgb.com/) by [Nicholas Piegdon](ht
 |-|-|
 |TMSRGBv2 TMSHAT Build1<br>PCB unpopulated top|TMSRGBv2 TMSHAT Build1<br>PCB unpopulated bottom|
 
+|[<img src="images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-Top-IMG_8451-512px.png" width="512"/>](images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-Top-IMG_8451.png)|
+|:--|
+|TMSRGBv2 TMSHAT Build1 PCB populated top with TMSRGBv2 connected|
+
+|[<img src="images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-Bottom-IMG_8450-512px.png" width="512"/>](images/JFF-TMSHAT-Hat-TMSRGBv2-Build1-Bottom-IMG_8450.png)|
+|:--|
+|TMSRGBv2 TMSHAT Build1 PCB populated bottom with TMSRGBv2 connected|
 
 ### JFF-TMSHAT-Hat-TMSRGBCustom
 
@@ -257,11 +262,13 @@ It implements a custom TMS-RGB directly in the TMSHAT.
 
 ## Compatibility tests
 
-| **Motherboard**          | **VDP**     | **TMSHAT**          | **Video Output** | **Result** |
-| ------------------------ | ----------- | ------------------- | ---------------- | ---------- |
-| rev 1.1b-TMSHAT Build1   | TMS9918ANL  | None (bridge 5&6)   | Composite 60Hz   | OK         |
-| rev 1.1b-TMSHAT Build1   | TMS9928AN   | TMSRGBCustom Build1 | RGBS 60Hz        | OK         |
-| rev 1.1b-TMSHAT Build1   | TMS9929ANL  | TMSRGBCustom Build1 | RGBS 50Hz        | OK         |
+| **Motherboard**          | **VDP**     | **TMSHAT**          | **Video Output** | **Result**     |
+| ------------------------ | ----------- | ------------------- | ---------------- | -------------- |
+| rev 1.1b-TMSHAT Build1   | TMS9918ANL  | None (bridge 5&6)   | Composite 60Hz   | OK             |
+| rev 1.1b-TMSHAT Build1   | TMS9928AN   | TMSRGBCustom Build1 | RGBS 60Hz        | OK             |
+| rev 1.1b-TMSHAT Build1   | TMS9929ANL  | TMSRGBCustom Build1 | RGBS 50Hz        | OK             |
+| rev 1.1b-TMSHAT Build1   | TMS9928AN   | TMSRGBv2 Build1     | RGBS 60Hz        | OK             |
+| rev 1.1b-TMSHAT Build1   | TMS9929ANL  | TMSRGBv2 Build1     | RGBS 50Hz        | (test pending) |
 
 
 ## Design considerations
