@@ -6,6 +6,8 @@ This is an enhanced version of the [JFF Computer](https://github.com/konkotgit/J
 
 ## Current Status
 
+:white_check_mark: Completed!
+
 The modified JFF mainboard 1.1b-TMSHAT Build1 has been successfully designed, built and tested (as of Aug 20th, 2025). See *warning* on the next paragraph.
 
 The TMSRGBCustom TMSHAT Build1 has been successfully designed, built and tested (as of Sep 11th, 2025). It has been successfully tested for RGB output on the modified JFF mainboard 1.1b-TMSHAT Build1 with both a TMS9929A NL (50Hz) and a TMS9928AN (60Hz).
