@@ -12,7 +12,7 @@ The modified JFF mainboard 1.1b-TMSHAT Build1 has been successfully designed, bu
 
 The TMSRGBCustom TMSHAT Build1 has been successfully designed, built and tested (as of Sep 11th, 2025). It has been successfully tested for RGB output on the modified JFF mainboard 1.1b-TMSHAT Build1 with both a TMS9929A NL (50Hz) and a TMS9928AN (60Hz).
 
-The TMSRGBv2 TMSHAT Build1 has been successfully designed, built and tested (as of Oct 11th, 2025). It has been successfully tested for RGB output on the modified JFF mainboard 1.1b-TMSHAT Build1 with a TMS9928AN (60Hz) for now, but the TMS9929A NL (50Hz) is expected to work too as with the TMSRGBCustom.
+The TMSRGBv2 TMSHAT Build1 has been successfully designed, built and tested (as of Oct 11th, 2025). It has been successfully tested for RGB output on the modified JFF mainboard 1.1b-TMSHAT Build1 with a TMS9928AN (60Hz) and a TMS9929A NL (50Hz).
 
 > [!WARNING]
 >
@@ -270,7 +270,7 @@ It implements a custom TMS-RGB directly in the TMSHAT.
 | rev 1.1b-TMSHAT Build1   | TMS9928AN   | TMSRGBCustom Build1 | RGBS 60Hz        | OK             |
 | rev 1.1b-TMSHAT Build1   | TMS9929ANL  | TMSRGBCustom Build1 | RGBS 50Hz        | OK             |
 | rev 1.1b-TMSHAT Build1   | TMS9928AN   | TMSRGBv2 Build1     | RGBS 60Hz        | OK             |
-| rev 1.1b-TMSHAT Build1   | TMS9929ANL  | TMSRGBv2 Build1     | RGBS 50Hz        | (test pending) |
+| rev 1.1b-TMSHAT Build1   | TMS9929ANL  | TMSRGBv2 Build1     | RGBS 50Hz        | OK             |
 
 
 ## Design considerations
